@@ -27,7 +27,8 @@
     "team-reflex/discord-php": "dev-develop",
     "monolog/monolog": "1.19.*",
     "norkunas/youtube-dl-php": "0.2.*",
-    "league/container": "^2.2"
+    "league/container": "^2.2",
+    "sovereignbot/playback-controls": "dev-master"
   },
   "bin": [
     "bin/sovereign"
