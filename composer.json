@@ -1,0 +1,35 @@
+{
+  "name": "sovereignbot/youtube-player",
+  "description": "Youtube playback functionality for Sovereign.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Karbowiak",
+      "email": "karbowiak@gmail.com"
+    },
+    {
+      "name": "Matthew Glinski",
+      "email": "matthewglinski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sovereign\\": "src/"
+    },
+    "files": [
+      "src/Helper/Container.php"
+    ]
+  },
+  "require": {
+    "php": "^7.0.0",
+    "ext-pthreads": ">=3.1.0",
+    "team-reflex/discord-php": "dev-develop",
+    "monolog/monolog": "1.19.*",
+    "norkunas/youtube-dl-php": "0.2.*",
+    "league/container": "^2.2"
+  },
+  "bin": [
+    "bin/sovereign"
+  ]
+}
