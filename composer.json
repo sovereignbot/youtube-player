@@ -20,6 +20,7 @@
   },
   "require": {
     "php": "^7.0.0",
-    "sovereignbot/playback-controls": "dev-master"
+    "sovereignbot/playback-controls": "dev-master",
+    "norkunas/youtube-dl-php": "0.2.*"
   }
 }

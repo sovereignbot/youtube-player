@@ -30,8 +30,9 @@ class youtube
 
         // Generate song md5
         $md5 = md5($youtubeLink);
-        // Now get the mp3 from
-        $songFile = __DIR__ . "/../../../cache/songs/{$md5}.mp3";
+
+        // Now get the mp3 from the cache
+        $songFile = __DIR__ . "/../../../../../cache/songs/{$md5}.mp3";
         $dl = new YoutubeDl([
             "extract-audio" => true,
             "audio-format" => "mp3",
